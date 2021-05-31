@@ -28,7 +28,7 @@ import com.example.batch.repository.UserRepository;
 import com.example.batch.utils.UserUtils;
 
 @Configuration
-@EnableBatchProcessing
+//@EnableBatchProcessing
 public class BatchConfiguration {
 	@Autowired
 	public JobBuilderFactory jobBuilderFactory;
@@ -38,13 +38,13 @@ public class BatchConfiguration {
 	@Autowired
 	public UserUtils userUtils;
 
-	@Bean
-	public Step step1(ItemReader<User> itemReader, ItemWriter<User> itemWriter) throws Exception {
-
-//        return this.stepBuilderFactory.get("step1").<UserDetail, User>chunk(5).reader(itemReader)
-//                .processor(processor()).writer(itemWriter).build();
-		return this.stepBuilderFactory.get("step1").<User, User>chunk(5).reader(itemReader).writer(itemWriter).build();
-	}
+//	@Bean
+//	public Step step1(ItemReader<User> itemReader, ItemWriter<User> itemWriter) throws Exception {
+//
+////        return this.stepBuilderFactory.get("step1").<UserDetail, User>chunk(5).reader(itemReader)
+////                .processor(processor()).writer(itemWriter).build();
+//		return this.stepBuilderFactory.get("step1").<User, User>chunk(5).reader(itemReader).writer(itemWriter).build();
+//	}
 	
 	@Bean
 	public Step step2() throws Exception {
