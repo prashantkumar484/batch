@@ -1,0 +1,5 @@
+com\learning\handler\S3EventFunctionHandler.class
+com\learning\service\DataService.class
+com\learning\domain\Data.class
+com\learning\service\S3EventFunction.class
+com\learning\ServerlessApp.class

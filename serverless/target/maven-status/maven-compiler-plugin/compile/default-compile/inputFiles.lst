@@ -1,0 +1,7 @@
+D:\projects\trial\SpringFuction-master\serverless\src\main\java\com\learning\handler\DataServiceFunctionHandler.java
+D:\projects\trial\SpringFuction-master\serverless\src\main\java\com\learning\domain\Data.java
+D:\projects\trial\SpringFuction-master\serverless\src\main\java\com\learning\service\DataService.java
+D:\projects\trial\SpringFuction-master\serverless\src\main\java\com\learning\ServerlessApp.java
+D:\projects\trial\SpringFuction-master\serverless\src\main\java\com\learning\handler\S3EventFunctionHandler.java
+D:\projects\trial\SpringFuction-master\serverless\src\main\java\com\learning\service\DataFunction.java
+D:\projects\trial\SpringFuction-master\serverless\src\main\java\com\learning\service\S3EventFunction.java
